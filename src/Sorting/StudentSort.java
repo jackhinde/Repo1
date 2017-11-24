@@ -31,6 +31,9 @@ public class StudentSort extends javax.swing.JFrame {
     
     ////////////////////////////////////////////////////////////////
 
+    //modified to work with ISSStudents
+    //original was only for integers
+    
 public static void selectionSort(ISSStudent1[] a){
    for (int i = 0; i < a.length - 1; i++){
       int minIndex = findMinimum(a, i);
